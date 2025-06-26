@@ -17,6 +17,7 @@ import Slide13 from "./slides/Slide13";
 import Slide14 from "./slides/Slide14";
 import Slide15 from "./slides/Slide15";
 import ParticlesBg from "./components/ParticlesBg";
+import Qrweb from "./slides/Qrweb";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <ParticlesBg />
       <SlideWrapper>
         <Slide1 />
+        <Qrweb />
         <Slide2 />
         <Slide3 />
         <Slide4 />
