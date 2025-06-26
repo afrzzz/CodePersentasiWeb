@@ -11,8 +11,8 @@ const Qrweb = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="text-2xl md:text-3xl font-bold text-cyan-300 text-center">
-          Scan QR untuk Melihat Persentasi Di SmartPhone
+        <h1 className="text-2xl md:text-3xl font-bold text-cyan-300 text-center uppercase">
+          Scan QR untuk Melihat Website <br /> Persentasi Di SmartPhone
         </h1>
 
         <motion.img
@@ -23,10 +23,10 @@ const Qrweb = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         />
-        <p className="text-sm md:text-base text-gray-300 text-center max-w-md">
-          Arahkan kamera HP Anda ke QR Code di atas untuk mengakses website
-          skripsi secara langsung.
-        </p>
+        <footer className="mt-6 text-sm text-gray-400 text-center">
+          © {new Date().getFullYear()} Afrizal Ardiansyah Sidiq. All rights
+          reserved.
+        </footer>
       </motion.div>
     </div>
   );
